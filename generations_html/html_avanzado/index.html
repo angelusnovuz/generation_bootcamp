@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Avanzdo</title>
+</head>
+<body>
+	<style>
+		table, tr, td, th{
+			border: 1px solid black;
+		}
+		table{
+			border-collapse: collapse;
+		}
+		thead{
+			background-color: rgb(230, 230, 230);
+		}
+
+	</style>
+	<nav>
+		<ul>
+			<li><a href="#tablas">Tablas</a> </li>
+		</ul>
+	</nav>
+
+	<h2 id="tablas">Tablas</h2>
+	<table>
+		<!-- Encabezado de la tabla -->
+		<thead>
+			<!-- Nombre de las Titulos de las Columnas-->
+			<tr>
+				<th>Cabecera</th>
+				<th>Cabecera</th>
+				<th>Cabecera</th>
+			</tr>
+		</thead>
+
+		<!-- Cuerpo de la tabla -->
+		<tbody>
+			<!-- Elementos por filas-->
+			<tr>
+				<td>A</td>
+				<td>B</td>
+				<td>C</td>
+			</tr>
+			<tr>
+				<td>D</td>
+				<td>E</td>
+				<td rowspan="3">F</td> <!-- Abarcar tres filas -->
+			</tr>
+			<tr>
+				<td>G</td>
+				<td colspan="2">H</td> <!-- Abarcar dos columnas -->
+			</tr>
+			<tr>
+				<td>I</td>
+			</tr>
+		</tbody>
+
+		<!-- Pie de la tabla -->
+		<tfoot>
+			
+		</tfoot>
+	</table>
+
+	<table>
+		<thead>
+			<tr>
+				<th colspan="4">Recordings of the Sei pezzi per pianoforte</th>
+			</tr>
+			<tr>
+				<th>Year</th>
+				<th>Pianist</th>
+				<th>Label</th>
+				<th>Ref</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1997</td>
+				<td>Konstantin Scherbakov</td>
+				<td>Naxos Records</td>
+				<td><a href="https://en.wikipedia.org/wiki/Sei_pezzi_per_pianoforte#cite_note-FOOTNOTENaxos_Records1997-74">[69]</a></td>
+			</tr>
+			<tr>
+				<td>2000</td>
+				<td>Riccardo Sandiford</td>
+				<td>Bongiovanni</td>
+				<td><a href="https://en.wikipedia.org/wiki/Sei_pezzi_per_pianoforte#cite_note-FOOTNOTEBongiovanni2000-75">[70]</a></td>
+			</tr>
+			<tr>
+				<td>2016</td>
+				<td>Michele D'Ambrosio</td>
+				<td>Brilliant Classics</td>
+				<td><a href="https://en.wikipedia.org/wiki/Sei_pezzi_per_pianoforte#cite_note-FOOTNOTEBrilliant_Classics2016-76">[71]</a></td>
+			</tr>
+			<tr>
+				<td>2021</td>
+				<td>Giovanna Gatto</td>
+				<td>Toccata Classics</td>
+				<td><a href="https://en.wikipedia.org/wiki/Sei_pezzi_per_pianoforte#cite_note-FOOTNOTEToccata_Classics2021-77">[72]</a></td>
+			</tr>
+		</tbody>
+	</table>
+
+
+	<h2>Tabla con celdas extendidas</h2>
+	<table>
+		<tbody>
+			<tr>
+				<td colspan="3">alfa</td>
+				<td>bravo</td>
+				<td rowspan="2">charlie</td>
+			</tr>
+			<tr>
+				<td>delta</td>
+				<td>echo</td>
+				<td>foxtrot</td>
+				<td>golf</td>
+			</tr>
+			<tr>
+				<td>hotel</td>
+				<td colspan="3" rowspan="2">india</td>
+				<td>juliet</td>
+			</tr>
+			<tr>
+				<td>kilo</td>
+				<td>lima</td>
+			</tr>
+			<tr>
+				<td>mike</td>
+				<td>november</td>
+				<td>oscar</td>
+				<td>papa</td>
+				<td>quebec</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
