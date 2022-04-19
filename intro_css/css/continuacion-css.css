@@ -1,0 +1,63 @@
+/*
+TAMAÑO DE LAS PANTALLAS
+1200px - PC
+750px - Tablet
+450px - Celular
+
+UNIDADES DE MEDIDA RELATIVAS
+% - 
+rem - tamaño de pixeles de nuestro navegador
+em - tamaño de fuente del elemento padre
+
+contenido - 
+padding - relleno
+border - delimita el contenido
+margin - exterior del contenido, distancia entre elementos
+
+Box sizing: ajusta el tamño total al alto y ancho especificado, todo es parte del elemento
+
+Para arreglar el colapso de margenes se agrega un border transparente
+Para mover los elementos en linea utilizar display:block
+
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+/* EL BODY normalmete se limita a 1200px */
+body{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.forma {
+	width: 100px;
+	height: 100px;
+	font-size: 20px;
+	padding: 5px;
+	margin: 0 auto;
+	
+}
+
+.color {
+	background-color: blue;
+	border: 1px solid red;
+}
+
+p {
+	padding: 20px;
+	border: 2px solid black;
+	margin: 0 auto;
+	
+}
+
+a {
+	width: 50%;
+	padding: 10px;
+	border: 3px solid transparent;
+	display: block;
+	margin: 0 auto;
+	
+}

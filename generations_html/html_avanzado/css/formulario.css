@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+.formulario {
+	border: 2px solid orange;
+	padding: 10px;
+	background-color: rgb(250, 212, 141);
+	width: 300px;
+	margin: 0 auto;
+}
+
+input {
+	border: transparent;
+	border-radius: 5px;
+	background-color: ;
+}
+
+div {
+	margin-top: 30px;
+}
+
+#enviar{
+	background-color: orange;
+	height: 30px;
+	width: 80px;
+	color: white;
+}
+
+#enviar:hover {
+	background-color: navy;
+}
+
+.acomodoLabel{
+	display: inline-block;
+	width: 100px;
+}

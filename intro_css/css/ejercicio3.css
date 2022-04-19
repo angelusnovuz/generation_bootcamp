@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #C6D9EE;
+}
+
+header {
+	width: 1200px;
+	text-align: right;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	padding: 30px 0;
+}
+
+#titulo-color {
+	color: #FF0000;
+	font-family:"Comic Sans", cursive;
+}
+
+h2 {
+	font-size: 50px;
+	font-family: monospace;
+	font-weight: bold ;
+	font-variant: small-caps;
+}
+
+p {
+	text-align: justify;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 200%;
+	text-indent: 3em;
+}

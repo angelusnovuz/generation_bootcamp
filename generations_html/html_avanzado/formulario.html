@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/formulario.css">
+	<title>Formularios</title>
+</head>
+<body>
+	<!-- <forms action="" method="post"></forms> -->
+	<form>
+		<input type="text" placeholder="Nombre" min="0" max="20" required>
+		<input type="text" placeholder="Apellido" size="10">
+		<input type="number" min="0" max="100" step="10" id="sizeLetter">
+		<input type="date">
+		<input type="month">
+		<input type="week">
+		<input type="datetime-local">
+		<input type="time">
+		<input type="password" placeholder="contraseña">
+		<input type="file">
+		<input type="range" min="1" max="4">
+		<input type="checkbox" value="Hola" checked>
+		<input type="radio">
+		<input type="email">
+		<select name="menu">
+			<option value="uno"></option>
+			<option value="dos"></option>
+			<option value="tres" selected></option>
+		</select>
+		<textarea cols="30" rows="10"></textarea>
+		<input type="color" id="inputColor">
+		<input type="reset" value="Limpiar">
+		<input type="submit" value="Mandar">
+	</form>
+
+	<script>
+		const color = document.querySelector("#inputColor")
+		console.log(color)
+
+		color.addEventListener("change", function (e) {
+			document.body.style.backgroundColor = e.target.value;
+		})
+
+		// const size = document.querySelector("#sizeLetter")
+		// color.addEventListener("change", function (e) {
+		// 	document.body.style.fontSize = e.target.value;
+		// })
+	</script>
+	<br>
+
+	<h1>Formulario</h1>
+	<form class="formulario">
+		<div class="nombre">
+			<label class="acomodoLabel" for="nombre">Nombre</label>
+			<input type="text" name="name" id="nombre" placeholder="Nombre" required>
+		</div>
+		<div class="apellido">
+			<label class="acomodoLabel" for="apellido">Apellido</label>
+			<input type="text" id="apellido" placeholder="Apellido">
+		</div>
+		<div class="password">
+			<label class="acomodoLabel" for="password">Contraseña</label>
+			<input type="password" id="password" placeholder="Contraseña" required>
+		</div>
+		<div class="correo">
+			<label class="acomodoLabel" for="correo">Correo</label>
+			<input type="email" id="correo" placeholder="E-mail" required>
+		</div>
+		<div class="enviar">
+			<input id="enviar" type="submit" value="Enviar">
+		</div>
+	</form>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+.formulario {
+	color: white;
+	border: 10px solid #add8e6;
+	border-radius: 10px;
+	background-color: #008000;
+	width: 400px;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+div{
+	padding-left: 40px;
+}
+
+input{
+	border: 2px solid red;
+	
+}
+
+label{
+	display: inline-block;
+	width: 100px;
+}
+
+h6 {
+	margin-left: 20px;
+}
+
+#enviar {
+	color: black;
+	border: black;
+	height: 25px;
+}
+
+#enviar:hover {
+	background-color: gray;
+}
