@@ -1,4 +1,4 @@
-.formulario {
+form {
 	color: white;
 	border: 10px solid #add8e6;
 	border-radius: 10px;
@@ -8,16 +8,15 @@
 	padding: 25px;
 }
 
-div{
+div {
 	padding-left: 40px;
 }
 
-input{
+input {
 	border: 2px solid red;
-	
 }
 
-label{
+label {
 	display: inline-block;
 	width: 100px;
 }
@@ -30,6 +29,7 @@ h6 {
 	color: black;
 	border: black;
 	height: 25px;
+	cursor: pointer;
 }
 
 #enviar:hover {

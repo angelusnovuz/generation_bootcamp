@@ -34,24 +34,11 @@
 		<input type="reset" value="Limpiar">
 		<input type="submit" value="Mandar">
 	</form>
-
-	<script>
-		const color = document.querySelector("#inputColor")
-		console.log(color)
-
-		color.addEventListener("change", function (e) {
-			document.body.style.backgroundColor = e.target.value;
-		})
-
-		// const size = document.querySelector("#sizeLetter")
-		// color.addEventListener("change", function (e) {
-		// 	document.body.style.fontSize = e.target.value;
-		// })
-	</script>
+	
 	<br>
 
 	<h1>Formulario</h1>
-	<form class="formulario">
+	<form class="formulario" id="formularioDatos">
 		<div class="nombre">
 			<label class="acomodoLabel" for="nombre">Nombre</label>
 			<input type="text" name="name" id="nombre" placeholder="Nombre" required>
@@ -62,17 +49,17 @@
 		</div>
 		<div class="password">
 			<label class="acomodoLabel" for="password">Contraseña</label>
-			<input type="password" id="password" placeholder="Contraseña" required>
+			<input type="password" id="password" name="password" placeholder="Contraseña" required>
 		</div>
 		<div class="correo">
 			<label class="acomodoLabel" for="correo">Correo</label>
-			<input type="email" id="correo" placeholder="E-mail" required>
+			<input type="email" id="correo" name="email" placeholder="E-mail" required>
 		</div>
 		<div class="enviar">
 			<input id="enviar" type="submit" value="Enviar">
 		</div>
 	</form>
 
-
+	<script src="js\main.js"></script>
 </body>
 </html>
