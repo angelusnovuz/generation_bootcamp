@@ -1,0 +1,39 @@
+.padre {
+	width: 80%;
+	height: 60vh;
+	border: 1px solid green;
+	margin: 0 auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:space; 
+	align-items:flex-end;
+}
+
+/*
+para row
+justifu content los acomoda de izquierda a derecha
+align items los acomada de arriba a abajo
+
+para column
+justifu content los acomoda de arriba a abajo
+align items los acomada de izquierda a derecha
+*/
+
+.hijo {
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+}
+
+
+.div1 {
+	background-color: blue;
+}
+
+.div2 {
+	background-color: red;
+}
+
+.div3 {
+	background-color: yellow;
+}
