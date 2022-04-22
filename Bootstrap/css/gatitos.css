@@ -1,0 +1,15 @@
+.navbar {
+	background-color: black;
+}
+
+.img-logo {
+	width: 200px;
+	height: 50px;
+	object-fit: cover;
+}
+
+.img-carousel {
+	height: calc(100vh - 76px);
+	object-fit: cover;
+	object-position: center;
+}
