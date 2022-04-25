@@ -13,3 +13,10 @@
 	object-fit: cover;
 	object-position: center;
 }
+
+.img-card {
+	width: 350px;
+	height: 250px;
+	object-fit: cover;
+	object-position: center;
+}
