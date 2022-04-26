@@ -1,3 +1,6 @@
+
+
+
 const color = document.querySelector("#inputColor")
 console.log(color)
 
