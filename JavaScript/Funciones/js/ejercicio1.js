@@ -1,4 +1,3 @@
-
 function invertir(palabra) {
 	if (palabra < 2 || typeof(palabra) != 'string'){
 		console.warn("No ingrestaste un texto válido");
