@@ -57,8 +57,8 @@ public class Areglos {
         }
 
         //Arrglo de Strings
-        Strings []arrStrings = {"Hola", "Mi", "Nombre", "Es"};
-        System.out.println(Arrays.toString(arrStrings));
+//        Strings []arrStrings = {"Hola", "Mi", "Nombre", "Es"};
+//        System.out.println(Arrays.toString(arrStrings));
 
     }
 
