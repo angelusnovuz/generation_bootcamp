@@ -74,10 +74,10 @@ public class Perro {
 
 
 
-    public static void setHumano(String value) {
+    /*public static void setHumano(String value) {
         Perro.humano.put(this.id, value);
     }
-
+    */
     //METODOS
 
     public static String buscarHumano(Integer key) {
