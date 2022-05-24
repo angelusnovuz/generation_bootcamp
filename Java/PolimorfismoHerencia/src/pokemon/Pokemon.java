@@ -1,6 +1,6 @@
 package pokemon;
 
-public class Pokemon {
+public abstract class Pokemon {
     private int id, edad, nivel;
     private String nombre;
     private boolean evolucion;
@@ -25,6 +25,8 @@ public class Pokemon {
     public void dormir(){
         System.out.println(nombre + " Zzzz!");
     }
+
+
 
     public int getId() {
         return id;
