@@ -1,4 +1,4 @@
-const urlUltimos = "https://api.jikan.moe/v4/seasons/now ";
+const urlUltimos = "https://api.jikan.moe/v4/seasons/now";
 const ultimosAnime = document.getElementById("ultimosAnimes");
 
 fetch(urlUltimos).
