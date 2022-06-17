@@ -1,18 +1,5 @@
 const $formulario = document.getElementById('product-form');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 $formulario.addEventListener('submit', (e) => {
     e.preventDefault();
 
